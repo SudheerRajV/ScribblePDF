@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1171801D844E3E00F40CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F11717F1D844E3E00F40CB3 /* AppDelegate.swift */; };
+		9F1171821D844E3E00F40CB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1171811D844E3E00F40CB3 /* ViewController.swift */; };
+		9F1171851D844E3E00F40CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1171831D844E3E00F40CB3 /* Main.storyboard */; };
+		9F1171871D844E3E00F40CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1171861D844E3E00F40CB3 /* Assets.xcassets */; };
+		9F11718A1D844E3E00F40CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1171881D844E3E00F40CB3 /* LaunchScreen.storyboard */; };
+		9F1171951D844E3E00F40CB3 /* ScribblePDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1171941D844E3E00F40CB3 /* ScribblePDFTests.swift */; };
+		9F1171A01D844E3E00F40CB3 /* ScribblePDFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F11719F1D844E3E00F40CB3 /* ScribblePDFUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F1171911D844E3E00F40CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1171741D844E3E00F40CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F11717B1D844E3E00F40CB3;
+			remoteInfo = ScribblePDF;
+		};
+		9F11719C1D844E3E00F40CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1171741D844E3E00F40CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F11717B1D844E3E00F40CB3;
+			remoteInfo = ScribblePDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F11717C1D844E3E00F40CB3 /* ScribblePDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScribblePDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F11717F1D844E3E00F40CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F1171811D844E3E00F40CB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F1171841D844E3E00F40CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F1171861D844E3E00F40CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F1171891D844E3E00F40CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F11718B1D844E3E00F40CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1171901D844E3E00F40CB3 /* ScribblePDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribblePDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1171941D844E3E00F40CB3 /* ScribblePDFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribblePDFTests.swift; sourceTree = "<group>"; };
+		9F1171961D844E3E00F40CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F11719B1D844E3E00F40CB3 /* ScribblePDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribblePDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F11719F1D844E3E00F40CB3 /* ScribblePDFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribblePDFUITests.swift; sourceTree = "<group>"; };
+		9F1171A11D844E3E00F40CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1171791D844E3E00F40CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F11718D1D844E3E00F40CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1171981D844E3E00F40CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F1171731D844E3E00F40CB3 = {
+			isa = PBXGroup;
+			children = (
+				9F11717E1D844E3E00F40CB3 /* ScribblePDF */,
+				9F1171931D844E3E00F40CB3 /* ScribblePDFTests */,
+				9F11719E1D844E3E00F40CB3 /* ScribblePDFUITests */,
+				9F11717D1D844E3E00F40CB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F11717D1D844E3E00F40CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F11717C1D844E3E00F40CB3 /* ScribblePDF.app */,
+				9F1171901D844E3E00F40CB3 /* ScribblePDFTests.xctest */,
+				9F11719B1D844E3E00F40CB3 /* ScribblePDFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F11717E1D844E3E00F40CB3 /* ScribblePDF */ = {
+			isa = PBXGroup;
+			children = (
+				9F11717F1D844E3E00F40CB3 /* AppDelegate.swift */,
+				9F1171811D844E3E00F40CB3 /* ViewController.swift */,
+				9F1171831D844E3E00F40CB3 /* Main.storyboard */,
+				9F1171861D844E3E00F40CB3 /* Assets.xcassets */,
+				9F1171881D844E3E00F40CB3 /* LaunchScreen.storyboard */,
+				9F11718B1D844E3E00F40CB3 /* Info.plist */,
+			);
+			path = ScribblePDF;
+			sourceTree = "<group>";
+		};
+		9F1171931D844E3E00F40CB3 /* ScribblePDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1171941D844E3E00F40CB3 /* ScribblePDFTests.swift */,
+				9F1171961D844E3E00F40CB3 /* Info.plist */,
+			);
+			path = ScribblePDFTests;
+			sourceTree = "<group>";
+		};
+		9F11719E1D844E3E00F40CB3 /* ScribblePDFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F11719F1D844E3E00F40CB3 /* ScribblePDFUITests.swift */,
+				9F1171A11D844E3E00F40CB3 /* Info.plist */,
+			);
+			path = ScribblePDFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F11717B1D844E3E00F40CB3 /* ScribblePDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1171A41D844E3E00F40CB3 /* Build configuration list for PBXNativeTarget "ScribblePDF" */;
+			buildPhases = (
+				9F1171781D844E3E00F40CB3 /* Sources */,
+				9F1171791D844E3E00F40CB3 /* Frameworks */,
+				9F11717A1D844E3E00F40CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScribblePDF;
+			productName = ScribblePDF;
+			productReference = 9F11717C1D844E3E00F40CB3 /* ScribblePDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F11718F1D844E3E00F40CB3 /* ScribblePDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1171A71D844E3E00F40CB3 /* Build configuration list for PBXNativeTarget "ScribblePDFTests" */;
+			buildPhases = (
+				9F11718C1D844E3E00F40CB3 /* Sources */,
+				9F11718D1D844E3E00F40CB3 /* Frameworks */,
+				9F11718E1D844E3E00F40CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1171921D844E3E00F40CB3 /* PBXTargetDependency */,
+			);
+			name = ScribblePDFTests;
+			productName = ScribblePDFTests;
+			productReference = 9F1171901D844E3E00F40CB3 /* ScribblePDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F11719A1D844E3E00F40CB3 /* ScribblePDFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1171AA1D844E3E00F40CB3 /* Build configuration list for PBXNativeTarget "ScribblePDFUITests" */;
+			buildPhases = (
+				9F1171971D844E3E00F40CB3 /* Sources */,
+				9F1171981D844E3E00F40CB3 /* Frameworks */,
+				9F1171991D844E3E00F40CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F11719D1D844E3E00F40CB3 /* PBXTargetDependency */,
+			);
+			name = ScribblePDFUITests;
+			productName = ScribblePDFUITests;
+			productReference = 9F11719B1D844E3E00F40CB3 /* ScribblePDFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1171741D844E3E00F40CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Curiosity;
+				TargetAttributes = {
+					9F11717B1D844E3E00F40CB3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z5MSV52AV7;
+						ProvisioningStyle = Automatic;
+					};
+					9F11718F1D844E3E00F40CB3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z5MSV52AV7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F11717B1D844E3E00F40CB3;
+					};
+					9F11719A1D844E3E00F40CB3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z5MSV52AV7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F11717B1D844E3E00F40CB3;
+					};
+				};
+			};
+			buildConfigurationList = 9F1171771D844E3E00F40CB3 /* Build configuration list for PBXProject "ScribblePDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F1171731D844E3E00F40CB3;
+			productRefGroup = 9F11717D1D844E3E00F40CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F11717B1D844E3E00F40CB3 /* ScribblePDF */,
+				9F11718F1D844E3E00F40CB3 /* ScribblePDFTests */,
+				9F11719A1D844E3E00F40CB3 /* ScribblePDFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F11717A1D844E3E00F40CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F11718A1D844E3E00F40CB3 /* LaunchScreen.storyboard in Resources */,
+				9F1171871D844E3E00F40CB3 /* Assets.xcassets in Resources */,
+				9F1171851D844E3E00F40CB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F11718E1D844E3E00F40CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1171991D844E3E00F40CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1171781D844E3E00F40CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1171821D844E3E00F40CB3 /* ViewController.swift in Sources */,
+				9F1171801D844E3E00F40CB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F11718C1D844E3E00F40CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1171951D844E3E00F40CB3 /* ScribblePDFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1171971D844E3E00F40CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1171A01D844E3E00F40CB3 /* ScribblePDFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F1171921D844E3E00F40CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F11717B1D844E3E00F40CB3 /* ScribblePDF */;
+			targetProxy = 9F1171911D844E3E00F40CB3 /* PBXContainerItemProxy */;
+		};
+		9F11719D1D844E3E00F40CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F11717B1D844E3E00F40CB3 /* ScribblePDF */;
+			targetProxy = 9F11719C1D844E3E00F40CB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F1171831D844E3E00F40CB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1171841D844E3E00F40CB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F1171881D844E3E00F40CB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1171891D844E3E00F40CB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F1171A21D844E3E00F40CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F1171A31D844E3E00F40CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F1171A51D844E3E00F40CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z5MSV52AV7;
+				INFOPLIST_FILE = ScribblePDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curiosity.ScribblePDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F1171A61D844E3E00F40CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z5MSV52AV7;
+				INFOPLIST_FILE = ScribblePDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curiosity.ScribblePDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F1171A81D844E3E00F40CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z5MSV52AV7;
+				INFOPLIST_FILE = ScribblePDFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curiosity.ScribblePDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribblePDF.app/ScribblePDF";
+			};
+			name = Debug;
+		};
+		9F1171A91D844E3E00F40CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z5MSV52AV7;
+				INFOPLIST_FILE = ScribblePDFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curiosity.ScribblePDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScribblePDF.app/ScribblePDF";
+			};
+			name = Release;
+		};
+		9F1171AB1D844E3E00F40CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z5MSV52AV7;
+				INFOPLIST_FILE = ScribblePDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curiosity.ScribblePDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ScribblePDF;
+			};
+			name = Debug;
+		};
+		9F1171AC1D844E3E00F40CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z5MSV52AV7;
+				INFOPLIST_FILE = ScribblePDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.curiosity.ScribblePDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ScribblePDF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1171771D844E3E00F40CB3 /* Build configuration list for PBXProject "ScribblePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1171A21D844E3E00F40CB3 /* Debug */,
+				9F1171A31D844E3E00F40CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1171A41D844E3E00F40CB3 /* Build configuration list for PBXNativeTarget "ScribblePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1171A51D844E3E00F40CB3 /* Debug */,
+				9F1171A61D844E3E00F40CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F1171A71D844E3E00F40CB3 /* Build configuration list for PBXNativeTarget "ScribblePDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1171A81D844E3E00F40CB3 /* Debug */,
+				9F1171A91D844E3E00F40CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F1171AA1D844E3E00F40CB3 /* Build configuration list for PBXNativeTarget "ScribblePDFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1171AB1D844E3E00F40CB3 /* Debug */,
+				9F1171AC1D844E3E00F40CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F1171741D844E3E00F40CB3 /* Project object */;
+}
